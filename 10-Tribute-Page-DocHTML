@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link rel="stylesheet" href="styles.css">
+    </head>
+
+    <main id="main">
+      <h1 id="title">Linus Torvalds</h1>
+
+    <figure id="img-div">
+      <img id="image" src="https://i.imgur.com/YY7NUUD.png">
+      <figcaption id="img-caption">The creator of Linux</figcaption>
+      </figure>
+
+      <ul id="tribute-info">
+        <li>1991 - Created the Linux kernal and the version control system Git</li>
+        <li>2004 - Named one of the "100 Most Influential People in the World" by Time Magazine</li>
+        <li>2010 - Recieved an honorary doctorate from the University of Helsinki</li>
+        <li>2010 - Recieved the 2010 Millennium Technology Prize</li>
+        <li>2013 - Inducted into the Internet Hall of Fame for his contribuition to the development of the Linux kernel and the creation of Git</li>
+
+
+        </ul>
+        <p>If you would like to read more about Linus check out his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Wikipedia entry</a>.</p>
+      </main>
+    
+      </html>
