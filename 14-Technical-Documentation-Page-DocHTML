@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="styles.css">
+<title>JS Documentation</title>
+
+</head>
+<body>
+  <main id="main-doc">
+    <section class="main-section" id="Topic_1">
+      <header>Topic 1</header>
+        <p>lorem1</p>
+        <p>lorem2</p>
+        <ul>
+          <li>sample list</li>
+           <li>sample list</li>
+          </ul>
+        <code>html function</code>
+      </section>
+
+      <section class="main-section" id="Topic_2">
+      <header>Topic 2</header>
+        <p>lorem1</p>
+        <p>lorem2</p>
+        <ul>
+          <li>sample list</li>
+           <li>sample list</li>
+          </ul>
+        <code>html function</code>
+      </section>
+
+      <section class="main-section" id="Topic_3">
+      <header>Topic 3</header>
+        <p>lorem1</p>
+        <p>lorem2</p>
+        <ul>
+          <li>sample list</li>
+           <li>sample list</li>
+          </ul>
+        <code>html function</code>
+      </section>
+
+      <section class="main-section" id="Topic_4">
+      <header>Topic 4</header>
+        <p>lorem1</p>
+        <p>lorem2</p>
+        <ul>
+          <li>sample list</li>
+           <li>sample list</li>
+          </ul>
+        <code>html function</code>
+      </section>
+
+      <section class="main-section" id="Topic_5">
+      <header>Topic 5</header>
+        <p>lorem1</p>
+        <p>lorem2</p>
+        <ul>
+          <li>sample list</li>
+           <li>sample list</li>
+          </ul>
+        <code>html function</code>
+      </section>
+    
+    <nav id="navbar">
+      <header>Topic of JS</header>
+      <a class="nav-link" href="#Topic1">Topic 1</a>
+       <a class="nav-link" href="#Topic2">Topic 2</a>
+        <a class="nav-link" href="#Topic3">Topic 3</a>
+         <a class="nav-link" href="#Topic4">Topic 4</a>
+          <a class="nav-link" href="#Topic5">Topic 5</a>
+    </nav>
+    </main>
+    </body>
+    </html>
