@@ -1,0 +1,9 @@
+#navbar {
+  position:sticky;
+}
+
+@media (maxwidth: 760px) {
+  .main-section {
+    background-color: #000000;
+  }
+}
