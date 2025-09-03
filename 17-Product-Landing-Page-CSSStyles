@@ -1,0 +1,134 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styling */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#header-img {
+  height: 50px;
+}
+
+/* Navigation bar */
+#nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #0066cc;
+  outline: none;
+}
+
+/* Main content spacing to avoid overlap with fixed header */
+main {
+  padding-top: 80px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #004080;
+}
+
+/* Video styling */
+#video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 64, 128, 0.2);
+}
+
+/* Form styling */
+#form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 400px;
+}
+
+#email {
+  flex: 1 1 auto;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #004080;
+  border-radius: 4px;
+}
+
+#submit {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover,
+#submit:focus {
+  background-color: #0066cc;
+  outline: none;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #nav-bar {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  #form {
+    flex-direction: column;
+  }
+
+  #submit {
+    width: 100%;
+  }
+}
